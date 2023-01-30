@@ -1,0 +1,26 @@
+
+mysql> create database Employee;
+Query OK, 1 row affected (0.62 sec)
+
+mysql> create table Emp_info(id int,name varchar(200),addr varchar(200),sal float);
+Query OK, 0 rows affected (1.23 sec)
+
+mysql> insert into Emp_info values(1,"Tom","Pune",55000.5);
+Query OK, 1 row affected (0.20 sec)
+
+mysql> insert into Emp_info values(2,"Smith","Mumbai",65300.8);
+Query OK, 1 row affected (0.14 sec)
+
+mysql> insert into Emp_info values(3,"Ram","Goa",89000.5);
+Query OK, 1 row affected (0.06 sec)
+
+mysql> select * from Emp_info;
++------+-------+--------+---------+
+| id   | name  | addr   | sal     |
++------+-------+--------+---------+
+|    1 | Tom   | Pune   | 55000.5 |
+|    2 | Smith | Mumbai | 65300.8 |
+|    3 | Ram   | Goa    | 89000.5 |
++------+-------+--------+---------+
+3 rows in set (0.01 sec)
+set (0.00 sec)
